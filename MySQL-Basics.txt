@@ -1,0 +1,18 @@
+1.    create database foo;
+2.    show databases
+3.    grant all on foo.* to 'bardev'@'localhost' identified by 'secret';
+4.    exit
+5.    mysql -u bardev -p
+6.    show database --> only limited database
+7.    exit
+8.    mysql -u root -p
+9.    show databases
+10.    use 6drupal;
+11.    show tables --> has cache
+12.    describe cache;
+13.    select cid from cache;
+14.    truncate cache; --> empty the tables = 0 rows
+15.    show tables --> cache is still there
+16.    select nid, title from node;
+17.    update users set pass = md5('secret') where uid = 1;
+18.    exit
