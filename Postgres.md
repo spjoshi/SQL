@@ -17,19 +17,19 @@ count
 2255098
 (1 row)
 
-### Select top 5 rows
+### Select top 5 rows  
 select * from cmspop limit 5;
 
 
 ## Create a new user
-C:\Users\Me>createuser -U postgres -P -s -e newuser1
-Enter password for new role:
-Enter it again:
-CREATE ROLE 'newuser1' PASSWORD 'md5lakdjfadf9a8df09asdf70asd8f0a9sdf' SUPERUSER CREATEDB
-CREATEROLE INHERIT LOGIN;
+C:\Users\Me>createuser -U postgres -P -s -e newuser1  
+Enter password for new role:  
+Enter it again:  
+CREATE ROLE 'newuser1' PASSWORD 'md5lakdjfadf9a8df09asdf70asd8f0a9sdf' SUPERUSER CREATEDB  
+CREATEROLE INHERIT LOGIN;  
 
-## Useful commands
-\l --> list databases
-\c --> change database
-\dt --> list tables
-\du --> list users and their previledges
+## Useful commands  
+\l --> list databases  
+\c --> change database  
+\dt --> list tables  
+\du --> list users and their previledges  
