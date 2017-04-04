@@ -60,3 +60,8 @@ CREATEROLE INHERIT LOGIN;
 \c --> change database  
 \dt --> list tables  
 \du --> list users and their previledges  
+
+
+## Connecting Postgres and Tableau
+1. Download the driver for postgres
+2. ![Tab_PSQL connector](https://github.com/spjoshi/SQL/blob/master/Tableau_Postgres_conn.png)
